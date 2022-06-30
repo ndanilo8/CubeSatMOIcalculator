@@ -45,9 +45,9 @@ int main()
 	MOIy = (1.0 / 12.0) * mass * (pow(d, 2) + pow(h, 2));
 	MOIz = (1.0 / 12.0) * mass * (pow(w, 2) + pow(h, 2));
 
-	cout << "MOI x: " << MOIx << endl;
-	cout << "MOI y: " << MOIy << endl;
-	cout << "MOI z: " << MOIz << endl;
+	cout << "MOI x: " << MOIx << "kg m^2" << endl;
+	cout << "MOI y: " << MOIy << "kg m^2" << endl;
+	cout << "MOI z: " << MOIz << "kg m^2" << endl;
 
 	double Tx, Ty, Tz, Tnet; // 3-axis Torque
 	
