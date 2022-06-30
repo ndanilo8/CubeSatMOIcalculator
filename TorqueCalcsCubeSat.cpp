@@ -55,10 +55,10 @@ int main()
 	Ty = MOIy * omega_dot;
 	Tz = MOIz * omega_dot;
 	Tnet = Tx + Ty + Tz;
-
-	cout << "Torque x: " << Tx << endl;
-	cout << "Torque y: " << Ty << endl;
-	cout << "Torque z: " << Tz << endl;
-	cout << "Net Torque: " << Tnet << endl;
+	
+	cout << "Torque x: " << Tx <<" Nm" << endl;
+	cout << "Torque y: " << Ty << " Nm" << endl;
+	cout << "Torque z: " << Tz << " Nm" << endl;
+	cout << "Net Torque: " << Tnet << " Nm" << endl;
 
 }
